@@ -56,17 +56,33 @@ header{
 }
 
 
-
-@media (max-width:800){
+@media (max-width: 850px){
     .informacoes{
-        padding-right: 18%;
-        margin-right: 2%;
+        margin-right: 3%;
+        width: 30%;
     }
 } 
-@media (max-width: 500px) {
+@media (max-width: 650px){
     .informacoes{
-        padding-right: 25%;
+        margin-right: 4%;
+        width: 40%;
+    }
+} 
+
+@media (max-width: 500px) {
+    header{
+        padding-bottom: 1%;
+    }
+    .logo{
+        padding-top: 22%;
+        width: 30px;
+        height: 40px;
+    }
+    .informacoes{
+        padding-top: 1%;
+        padding-right: 22%;
         margin-right: 2%;
+        width: auto;
     }
     .botao-navegacao{
         font-size: 90%;
@@ -79,3 +95,6 @@ header{
         padding-top: 20%;
     }
 }
+
+
+
