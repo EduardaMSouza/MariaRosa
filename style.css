@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #FF00B8;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.logo-nome{
+    display: flex;
+    padding: 0.30%;
+    padding-left: 2%;
+    padding-bottom: 1.25%;
+}
+
+.logo{
+    transform: rotate(-15deg);
+    padding-top: 18%;
+}
+
+.nomes{
+    display: flex;
+    flex-direction: column;
+    padding-top: 15%;
+}
+
+
+#segundo-nome{
+    padding-left: 30%;
+}
+
+.informacoes{
+    display: flex;
+    margin-right: 12%;
+    padding: 0.30%;
+    padding-left: 2%;
+}
+
+.botao-navegacao{
+    margin: 10%;
+    background-color: #000000;
+    border:none;
+    font-weight: bolder;
+    font-size: 110%;
+}
+
+.botao-navegacao:hover{
+    cursor: pointer;
+}
+
+#quem-somos{
+    width: 100%;
+}
+
+@media (max-width:1000px){
+    
+} 
